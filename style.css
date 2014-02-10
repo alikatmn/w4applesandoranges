@@ -379,10 +379,11 @@ a:active {
 	padding-right: 2em;
 	color: gray;
 
-
+}
 /*--------------------------------------------------------------
  Masthead
 --------------------------------------------------------------*/
+
 .site-title {
   font-family: droid-serif, serif;
   font-weight: 400;
@@ -539,6 +540,10 @@ a:active {
 	display: none;
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 10.3 Comments
 --------------------------------------------------------------*/
@@ -611,6 +616,50 @@ iframe,
 object {
 	max-width: 100%;
 }
+/*--------------------------------------------------------------
+layout
+--------------------------------------------------------------*/
+.content-area {
+float: left;
+width: 80%;
+
+}
+
+.widget-area {
+	width: 20%;
+	float: left;
+	padding: 2em;
+	background-color: #ccc;
+	margin-left: 3em;
+
+}
+
+
+.site-footer {
+	font-size: .8em;
+	border-top: 1px dotted #ccc;
+	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+	margin-left: 3em;
+	clear: both;
+
+
+
+}
+
+.site-footer h1 {
+	font-family: merriweather, serif;
+	font-weight: 700;
+	font-size: 1em;
+	text-align: center;
+
+}
+
+.site-footer p {
+	line-height: .5;
+
+}
 
 /*--------------------------------------------------------------
 Utility Classes
@@ -636,4 +685,16 @@ Utility Classes
 	position: absolute;
 	width: 1px;
 }
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: inline;
+}
+
+.clearfix:after {
+	clear: both;
+	}
+
 

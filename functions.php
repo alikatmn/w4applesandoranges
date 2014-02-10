@@ -40,6 +40,13 @@ function w4applesandoranges_setup() {
 	 */
 	//add_theme_support( 'post-thumbnails' );
 
+register_sidebar( array (
+	'before_widget' => 'div class="sidebar">',
+	'after_widget' => '</div>',
+	'before_title' => '</div>',
+	));
+
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'w4applesandoranges' ),
