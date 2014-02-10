@@ -528,8 +528,8 @@ a:active {
 }
 
 .entry-content p {
-	width: 60%;
-	margin: 1em auto 1em auto;
+	width: 50%;
+		margin-left: 3em;
 }
 
 /*--------------------------------------------------------------
@@ -622,6 +622,14 @@ layout
 .content-area {
 float: left;
 width: 80%;
+
+}
+
+a:link {text-decoration:none;}
+
+
+.entry-header {
+		margin-left: 3em;
 
 }
 

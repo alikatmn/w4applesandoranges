@@ -27,6 +27,9 @@
 			<h2 class="site-description invisible"><?php bloginfo( 'description' ); ?></h2>
 		</div>
 
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/appleorange.jpg" />
+
+
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'w4applesandoranges' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'w4applesandoranges' ); ?></a>

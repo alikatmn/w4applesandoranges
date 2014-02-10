@@ -15,8 +15,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/appleorange.jpg" />
-
+		
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
