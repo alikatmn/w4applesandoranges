@@ -11,12 +11,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'w4applesandoranges_credits' ); ?>
-			<a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'w4applesandoranges' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'w4applesandoranges' ), 'w4applesandoranges', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<p>Apples and Oranges | 2525 Orange Way, Apple Orchard, CA 91104 | Phone: (800) 424-3232</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
