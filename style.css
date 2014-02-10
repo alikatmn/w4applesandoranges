@@ -529,7 +529,7 @@ a:active {
 
 .entry-content p {
 	width: 50%;
-		margin-left: 3em;
+	margin-left: 3em;
 }
 
 /*--------------------------------------------------------------
@@ -638,7 +638,7 @@ a:link {text-decoration:none;}
 	float: left;
 	padding: 2em;
 	background-color: #ccc;
-	margin-left: 3em;
+
 
 }
 
@@ -704,5 +704,10 @@ Utility Classes
 .clearfix:after {
 	clear: both;
 	}
+
+	*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
 
 
